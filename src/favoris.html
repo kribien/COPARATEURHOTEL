@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Destinations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="./dist/styles.css" rel="stylesheet">  
+  </head>
+  <body class="bg-green-900 text-white font-sans">
+    <!-- Header -->
+    <header class="bg-blue-200 p-4 flex justify-between items-center">
+      <img
+        src="https://storage.googleapis.com/a1aa/image/E6e2oRsdZr1RAqzfGkw7n2KyOXbBU3OStT5YkQTb9U1BKY2TA.jpg"
+        alt="Logo"
+        class="h-10 w-10"
+      />
+      <div class="flex space-x-4 text-xl">
+        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-bell"></i>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-6">
+      <!-- Title -->
+      <h1 class="text-2xl font-bold mb-6">Les destinations favorites</h1>
+
+      <!-- Destination Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Destination 1 -->
+        <div class="text-center bg-green-800 p-4 rounded-lg shadow-md">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/iZe8MwzkbdVYcK1HKNC86CrYw0NONqRJ41z7DiA6YJY9EM7JA.jpg"
+            alt="Nairobi, Kenya cityscape"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <p class="mt-4 font-medium">Nairobi, Kenya</p>
+        </div>
+
+        <!-- Destination 2 -->
+        <div class="text-center bg-green-800 p-4 rounded-lg shadow-md">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/w0cedneB7jn6ykfutRLE6PdodcpOMBPEUcud2ZrRmIfAogZPB.jpg"
+            alt="Kinshasa, RDC cityscape"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <p class="mt-4 font-medium">Kinshasa, RDC</p>
+        </div>
+
+        <!-- Destination 3 -->
+        <div class="text-center bg-green-800 p-4 rounded-lg shadow-md">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/w0cedneB7jn6ykfutRLE6PdodcpOMBPEUcud2ZrRmIfAogZPB.jpg"
+            alt="Kinshasa, RDC cityscape"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <p class="mt-4 font-medium">Kinshasa, RDC</p>
+        </div>
+
+        <!-- Destination 4 -->
+        <div class="text-center bg-green-800 p-4 rounded-lg shadow-md">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/oWnTG9dABQKsE54ezePGszWA4azjda6txYKvYKGt5Bc8JY2TA.jpg"
+            alt="Kigali, Rwanda cityscape"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <p class="mt-4 font-medium">Kigali, Rwanda</p>
+        </div>
+
+        <!-- Destination 5 -->
+        <div class="text-center bg-green-800 p-4 rounded-lg shadow-md">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/sEZ2fJ830MWeZ0VjddBoDU4PuAS8LuORD9K9G8SEViseTwsnA.jpg"
+            alt="Eko ekam, Cameroun waterfall"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <p class="mt-4 font-medium">Eko ekam, Cameroun</p>
+        </div>
+
+        <!-- Destination 6 -->
+        <div class="text-center bg-green-800 p-4 rounded-lg shadow-md">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/w0cedneB7jn6ykfutRLE6PdodcpOMBPEUcud2ZrRmIfAogZPB.jpg"
+            alt="Kinshasa, RDC cityscape"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <p class="mt-4 font-medium">Kinshasa, RDC</p>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="flex justify-between items-center mt-8">
+        <button
+          class="bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none"
+        >
+          ← Previous
+        </button>
+        <button
+          class="bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none"
+        >
+          Next →
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
